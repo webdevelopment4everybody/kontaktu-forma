@@ -1,5 +1,4 @@
 body{
- 
 }
 .background{
     display:inline-block;
@@ -13,13 +12,10 @@ body{
 .container{
     display:inline-block;
     width:800px;
-    /* margin-top:40px; */
-    /* margin-left: calc(50% - 400px); */
     position: absolute;
     top:50%;
     left: 50%;
     transform:translate(-50%, -50%);
-
 }
     .left{
         display:inline-block;
@@ -39,24 +35,20 @@ body{
         h1{
             text-transform: capitalize;
             font-weight: normal;
-
     }
         footer{
            position:absolute;
            left:50px;
            right:50px;
            bottom:20px;
-
         }
             footer > a{
                 color:#fff;
 
             }
             footer > span{
-               
 
             }
-
     .right{
         display:inline-block;
         width:60%;
@@ -76,8 +68,6 @@ body{
             position:absolute;
             top:0;
             right:0;
-           
-
         }
         .btn,
         .form-row > span,
@@ -87,10 +77,7 @@ body{
             padding:10px;
             font-size: 18px;
             line-height: 20px;
-
         }
-
-        
                 .btn{
                     display:inline-block;
                     float:left;
@@ -99,25 +86,17 @@ body{
                     padding-right: 50px;
                     padding-left:50px;
                     border-radius:20px;
-                    /* font-size: 18px;
-                    line-height: 20px; */
+                    background: #a7cfdf; 
+                    background: -moz-linear-gradient(left,  #a7cfdf 6%, #23538a 71%); /* FF3.6-15 */
+                    background: -webkit-linear-gradient(left,  #a7cfdf 6%,#23538a 71%); /* Chrome10-25,Safari5.1-6 */
+                    background: linear-gradient(to right,  #a7cfdf 6%,#23538a 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 */
 
                 }
                 .form-row > span{
                     margin-left:20px;
-                    /* display: inline-block;
-                    float:left;
-                    padding:10px;
-                    font-size: 18px;
-                    line-height: 20px; */
                 }
                 .form-row > a{
-                    /* display: inline-block;
-                    float:left;
-                    padding:10px;
-                    font-size: 18px;
-                    line-height: 20px; */
-
                 }
 
 
